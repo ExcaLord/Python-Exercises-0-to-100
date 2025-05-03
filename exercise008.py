@@ -2,7 +2,7 @@
 import random
 
 first_range = int(input("Insert the first number: "))
-second_range = int(input("Insert the limit of the randomize"))
+second_range = int(input("Insert the limit of the randomize: "))
 random_number = random.randint(first_range, second_range)
 
 print(
