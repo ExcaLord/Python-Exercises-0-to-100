@@ -1,3 +1,6 @@
 # Word count #
 
-word = input("Wich word you desire to count the letters")
+word = input("Which word you desire to count the letters")
+
+for letters in word.split():
+    print(len(letters))
